@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b15a230f8.js" crossorigin="anonymous"></script>
+    <style>
+        #header{
+            background-color: rgb(226, 200, 165);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Hubballi', cursive;
+
+        }
+        #nameAndTitle{
+            background-color: white;
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #nameAndTitle h1, h2{
+            margin: 0;
+        }
+        #contact{
+            list-style-type: none;
+        }
+        #contact i{
+            width: 30px;
+            color: rgb(226, 200, 165);
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nameAndTitle">
+            <h1>IAGO SILVA DE ARAÚJO</h1>
+            <h2>DESENVOLVEDOR</h2>
+        </div>
+    </div>
+    <div id="container">
+         <div id="sidebar"></div>
+             <div class="card">
+                <h3>CONTATO</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i>iagoaraujo498@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i>(83) 93300-3333</li>
+                    <li><i class="fa-solid fa-location-pin"></i>Campina Grande, PB</li>
+                </ul>
+             </div>
+             <div class="card">
+                <h3>SKILLS</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C#</li>
+                </ul>
+             </div>
+             <div class="card">
+                <h3>FORMAÇÃO ACADÊMICA</h3>
+                <ul>
+                    <li>Analista de Sistemas</li>
+                    <li>Informática</li>
+                </ul>
+             </div>
+             <div class="card">
+                <h3>LINKS</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/iagozx/"></a>Linkedin</li>
+                    <li><a href="https://www.instagram.com/iagozx/"></a>Instagram</li>
+                </ul>
+             </div>
+         <div id="content"></div>
+    </div>
+</body>
+</html>
